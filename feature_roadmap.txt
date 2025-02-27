@@ -1,0 +1,59 @@
+[[most features need a ui element to go with them]]
+[[every feature should have a distinct and obvious feedback that indicates the success of the action the user performed]]
+
+
+1. [ ]ability to render text
+
+2. ability to edit text (should I use the clay 'window' or the operating system window?)
+    - [ ] string representation data structure
+    - [ ] cursor position
+    - [ ] cursor features for editing text
+    - [ ] backspace capabilities
+    - [ ] moving the cursor around (all directions)
+
+3. [ ] ability to create and save files
+   - [ ] windows(tabs) for different files/buffers
+
+4. [ ] ability to link notes.
+   [ ]  -ability to visualize links.
+   [ ]  -ability to visualize a snippet of the linked note when hovered 
+
+5. [ ] ability to add metadata to notes (tags, custom metadata)
+
+
+=> cut, copy and paste
+=> ability to search for notes
+=> ability to fuzzy search inside buffers
+=> ability to fuzzy search across a folder like beargrep(search online)
+
+
+
+6. [ ] ability to query metadata.
+   [ ]  - visualize query results
+
+7. [ ] visualize linked notes in "mind" format
+       - visualization of compartimentalization of notes to months like in the pinterest picture(in my phone)
+       - ui actions for compartimentalization visualization
+
+8. [ ] calendar
+       - calendar actions(reminders, consistency visualization for multiple tracked tasks[color coded], calendar widgets(todos))
+
+9. [ ] todo list 
+       - a todo list that pops up with every app launch
+       - priorities to list items
+       - calendar features (list items that keep popping for a ccertain calendar period)
+       - automatic sorting due to priorities and due dates
+
+10. kanban board.
+
+11. canvas 
+    - [ ] excalidraw like canvas that can draw geometric shapes, arrows, text and bezier curves, graphs and append images(resizeable)
+    - animate colors or geometric elements shape, size or orientation.
+
+12. powerpoint 
+    - a presentation tool that you can use to present ideas like the way people use power powerpoint
+    - research interesting animations that can be composed to make interesting presentations
+    - elements eg images, native graphs, text and excalidraw elements
+
+
+

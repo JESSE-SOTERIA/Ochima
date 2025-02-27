@@ -1,0 +1,4 @@
+what is the rlgl layer most useful for?
+can I use it directly?
+
+what is lerp? deep dive in to lerp and how it is used for animation.
