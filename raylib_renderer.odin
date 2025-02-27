@@ -30,37 +30,6 @@ load_font :: proc(fontId: u16, fontSize: u16, path: cstring) {
     rl.SetTextureFilter(raylibFonts[fontId].font.texture, rl.TextureFilter.TRILINEAR)
 }
 
-//measureText:: proc "c" (text: ^clay.String, config: ^clay.TextElementConfig) ->clay.Dimensions {
-//  text_size : clay.Dimensions = {0,0}
-//
-//  max_text_width : f32 = 0
-//  line_text_width : f32 = 0
-//
-//  text_height := cast(f32)config.fontSize
-//  font_to_use := raylibFonts[config.fontId].font
-//
-//    for i in 0 ..< int(text.length) {
-//        if (text.chars[i] == '\n') {
-//            max_text_width = max(max_text_width, line_text_width)
-//            line_text_width = 0
-//            continue
-//        }
-//        index := cast(i32)text.chars[i] - 32
-//        if (font_to_use.glyphs[index].advanceX != 0) {
-//            line_text_width += cast(f32)font_to_use.glyphs[index].advanceX
-//        } else {
-//            line_text_width += (font_to_use.recs[index].width + cast(f32)font_to_use.glyphs[index].offsetX)
-//        }
-//    }
-//
-//  max_text_width = max(max_text_width, line_text_width)
-//
-//  text_size.width = max_text_width/2
-//  text_size.height = text_height
-//
-//  return text_size
-//}
-//
 sample_string : string = "this is the thing that I wanted to render in the somethign int healkfj"
 
 createLayout :: proc(lerp_value: f32) -> clay.ClayArray(clay.RenderCommand) {
