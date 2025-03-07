@@ -1,1 +1,1 @@
-this repository is now being developed at github.com/JESSE-SOTERIA/notepad
+this repository is now being developed at https://github.com/JESSE-SOTERIA/notepad
